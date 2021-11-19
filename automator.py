@@ -57,7 +57,7 @@ for idx, number in enumerate(numbers):
 		continue
 	print('{}/{} => Sending message to {}.'.format((idx+1), total_number, number))
 	try:
-		url = 'https://web.whatsapp.com/send?phone=' + number + '&text=' + message
+		url = 'https://web.whatsapp.com/send?phone=91' + number + '&text=' + message
 		sent = False
 		for i in range(3):
 			if not sent:
